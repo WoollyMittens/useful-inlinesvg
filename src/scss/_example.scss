@@ -1,0 +1,17 @@
+.inline-svg {
+	display: inline-block;
+	background-image: url("../img/photo_0.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 40px 80px;
+	margin: 0;
+	img,
+	svg {
+		display: block;
+		width: 136px;
+		height: 136px;
+		circle {
+			transition: fill ease 500ms;
+		}
+	}
+}
