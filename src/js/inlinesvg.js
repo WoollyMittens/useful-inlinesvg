@@ -18,8 +18,6 @@ var inlineSvg = function (img, container) {
 	    var svg = evt.target.responseXML.getElementsByTagName('svg')[0];
 	    container.removeChild(img);
 	    container.appendChild(svg);
-	    // start the animation script
-	    globalConnectivity(jQuery);
 	  });
 	  routeXhr.open('GET', img.src, true);
 	  routeXhr.send();
